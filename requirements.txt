@@ -2,7 +2,7 @@
 # is what install.sh actually installs. Bump here, regenerate the lock, run
 # `pip-audit -r requirements.lock`, then run the tests.
 fastapi==0.141.1
-uvicorn[standard]==0.52.4
+uvicorn[standard]==0.53.0
 httpx==0.28.1
 PyYAML==6.0.3
 psutil==7.2.2
