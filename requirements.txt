@@ -1,7 +1,7 @@
 # Direct dependencies, pinned. requirements.lock is the fully resolved set and
 # is what install.sh actually installs. Bump here, regenerate the lock, run
 # `pip-audit -r requirements.lock`, then run the tests.
-fastapi==0.141.1
+fastapi==0.142.2
 uvicorn[standard]==0.54.0
 httpx==0.28.1
 PyYAML==6.0.3
