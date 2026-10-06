@@ -7,4 +7,4 @@ httpx==0.28.1
 PyYAML==6.0.3
 psutil==7.2.2
 dnspython==2.8.0
-cryptography==50.0.1
+cryptography==50.0.2
