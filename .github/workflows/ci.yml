@@ -152,7 +152,7 @@ jobs:
         # watchdog staying quiet on a healthy-but-slow stream.
         run: |
           pip install -r requirements.lock
-          npm install --no-save playwright@1.56.0
+          npm install --no-save playwright@1.64.1
           npx playwright install --with-deps chromium
           node tests/smoke/browser-smoke.mjs
 
